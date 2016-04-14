@@ -3,7 +3,7 @@
 __author__ = "Sam Schmalzried"
 
 class TreeNode:
-	def __init__(self, initial):
+	def __init__(self, initial=None):
 		self.data = initial
 		self.leftChild = None
 		self.rightChild = None
